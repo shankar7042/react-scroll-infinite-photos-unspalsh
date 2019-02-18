@@ -1,0 +1,5 @@
+module.exports = {
+    APPLICATION_ID: process.env.APPLICATION_ID || '39000502d647f121814a7c8b2f92063013a287d9ba84fd3cb1bd04e702b96d36',
+    SECRET: process.env.SECRET || '55f711da9b60186525fe46221245af01ce707ea921c9736122e14e3a65c23585',
+    CALLBACK_URL: process.env.CALLBACK_URL || 'http://localhost:3000'
+};
